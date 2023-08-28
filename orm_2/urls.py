@@ -19,8 +19,6 @@ import debug_toolbar
 from django.contrib import admin
 from django.urls import include, path
 
-from demo.views import list_orders
-
 from school.views import base, students_list
 
 urlpatterns = [
